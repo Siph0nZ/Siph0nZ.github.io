@@ -3,6 +3,18 @@ html {
   background-color: black !important;
 }
 
+.spacer {
+  aspect-ratio: 960/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer-1 {
+  background-image: url("/assets/layeredWave.svg");
+}
+
 .line:after {
   content: " ";
   display: block;
