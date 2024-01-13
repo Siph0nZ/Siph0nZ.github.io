@@ -3,6 +3,21 @@ html {
   background-color: black !important;
 }
 
+a {
+  color: green !important;
+  background-color: transparent;
+}
+
+a:hover {
+  color: darkolivegreen !important;
+  background-color: transparent;
+}
+
+a:visited {
+  color: darkolivegreen;
+  background-color: transparent;
+}
+
 .spacer {
   aspect-ratio: 960/200;
   width: 100%;
@@ -13,6 +28,10 @@ html {
 
 .layer-1 {
   background-image: url("/assets/layeredWave.svg");
+}
+
+.layer-2 {
+  background-image: url("/assets/layeredWave2.svg");
 }
 
 .line:after {
