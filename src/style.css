@@ -147,3 +147,23 @@ a:visited {
     border-color: white;
   }
 }
+
+@font-face {
+  font-family: Nexa-ExtraLight;
+  src: url("/assets/fonts/Nexa-ExtraLight.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Nexa;
+  src: url("/assets/fonts/Nexa-Heavy.ttf");
+  font-weight: bold;
+}
+
+.nexa-extra-light {
+  font-family: Nexa-ExtraLight;
+}
+
+.nexa-bold {
+  font-family: Nexa;
+}
