@@ -3,6 +3,20 @@ html {
   background-color: black !important;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.fa-envelope {
+  font-family: "Font Awesome 5 Free";
+  padding: 0 10px 0 0;
+}
+
+.fa-linkedin {
+  font-family: "Font Awesome 5 Brands";
+  padding: 0 10px 0 0;
+}
+
 a {
   color: green !important;
   background-color: transparent;
@@ -32,6 +46,14 @@ a:visited {
 
 .layer-2 {
   background-image: url("/assets/layeredWave2.svg");
+}
+
+.layer-3 {
+  background-image: url("/assets/blobScene.svg");
+}
+
+.layer-4 {
+  background-image: url("/assets/blob.svg");
 }
 
 .line:after {
