@@ -41,19 +41,19 @@ a:visited {
 }
 
 .layer-1 {
-  background-image: url("/assets/layeredWave.svg");
+  background-image: url("/assets/svgs/layeredWave.svg");
 }
 
 .layer-2 {
-  background-image: url("/assets/layeredWave2.svg");
+  background-image: url("/assets/svgs/layeredWave2.svg");
 }
 
 .layer-3 {
-  background-image: url("/assets/blobScene.svg");
+  background-image: url("/assets/svgs/blobScene.svg");
 }
 
 .layer-4 {
-  background-image: url("/assets/blob.svg");
+  background-image: url("/assets/svgs/blob.svg");
 }
 
 .line:after {
@@ -84,10 +84,6 @@ a:visited {
   background-color: grey;
 }
 
-.font-nexa {
-  font-family: Nexa;
-}
-
 .bg-transparent {
   background-color: transparent;
   border-top: none;
@@ -97,14 +93,12 @@ a:visited {
 
 /* Welcome Title */
 .fade-in-form {
-  font-family: Nexa;
   animation: fadeIn 1s;
   opacity: 0%;
   animation-fill-mode: forwards;
 }
 
 .fade-in-welcome {
-  font-family: Nexa;
   animation: fadeIn 5s;
 }
 
@@ -119,7 +113,6 @@ a:visited {
 }
 
 .fade-in-delay {
-  font-family: Nexa;
   animation: fadeIn 4s;
   opacity: 0%;
   animation-fill-mode: forwards;
