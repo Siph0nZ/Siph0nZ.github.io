@@ -18,22 +18,19 @@ ul {
 }
 
 a {
-  color: green !important;
-  background-color: transparent;
-}
-
-a:hover {
   color: darkolivegreen !important;
   background-color: transparent;
 }
 
-a:visited {
-  color: darkolivegreen;
+a:hover {
+  color: hwb(82 18% 58% / 0.656) !important;
   background-color: transparent;
 }
 
+
+
 .spacer {
-  aspect-ratio: 960/200;
+  aspect-ratio: 960/300;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -137,7 +134,7 @@ a:visited {
   }
 }
 
-/* The typewriter cursor effect */
+/* The typewriter cursor effect
 @keyframes blink-caret {
   from,
   to {
@@ -147,6 +144,7 @@ a:visited {
     border-color: white;
   }
 }
+*/
 
 @font-face {
   font-family: Nexa-ExtraLight;
