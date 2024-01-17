@@ -8,6 +8,10 @@ ul {
   list-style-type: none;
 }
 
+#borderCol{
+  border-color: darkolivegreen !important;
+}
+
 .fa-envelope {
   font-family: "Font Awesome 5 Free";
   padding: 0 10px 0 0;
@@ -18,8 +22,29 @@ ul {
   padding: 0 10px 0 0;
 }
 
-a {
+.link-color-white{
+  color: white !important;
+  background-color: transparent;
+}
+
+.link-color-green{
   color: darkolivegreen !important;
+  background-color: transparent;
+}
+
+.link-color-white:hover{
+  color: hwb(82 18% 58% / 0.656) !important;
+  background-color: transparent;
+}
+
+.link-color-green:hover{
+  color: hwb(82 18% 58% / 0.656) !important;
+  background-color: transparent;
+}
+
+/*
+a {
+  color: #556b2f !important;
   background-color: transparent;
 }
 
@@ -27,8 +52,7 @@ a:hover {
   color: hwb(82 18% 58% / 0.656) !important;
   background-color: transparent;
 }
-
-
+*/
 
 .spacer {
   aspect-ratio: 960/300;
